@@ -1,0 +1,192 @@
+<div>
+	<div class="container margin-top-nav">
+		<div class="row">
+			<div class="col-md-12"><h3>Espace admin</h3></div>
+			<hr/>
+		</div>
+
+		<div ng-show="!dataLoaded">
+				<span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span> Chargement en cours...
+		</div>
+
+		<div class="row" ng-show="dataLoaded">
+			<div class="col-md-12">
+				<button class="btn btn-primary btn-md" ng-click="goToAjouterUtilisateur()">
+					Ajouter un client <span class="glyphicon glyphicon-plus"></span>
+				</button>
+			</div>
+
+			<div class="col-md-12">Liste des clients: </div>
+			<div class="col-md-12">
+				<select class="form-control" 
+					ng-model="clientChoisi"
+					ng-options="idx as client.nom for (idx, client) in listeClients"
+					ng-change="clientSelect(clientChoisi)">
+					<option value="">- Choisir un client -</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="row" ng-if="informationClient">
+			<div class="col-md-12">
+				Information du client <br/>
+				<textarea class="form-control" ng-model="informationClient.description"></textarea>
+				<button class="btn btn-primary btn-md" ng-click="enregistrerDescription(informationClient.description)">
+					Enregistrer <span class="glyphicon glyphicon-save"></span>
+				</button>
+			</div>
+			<div class="col-md-12">
+				<hr/>
+				<button class="btn btn-primary btn-md" ng-click="goToListUser()">
+					Voir la liste des forfaits (MAJ des fiches) <span class="glyphicon glyphicon-th-list"></span>
+				</button>
+				<button class="btn btn-primary btn-md" ng-click="goToStatsUser()">
+					Voir les statistiques des forfaits <span class="glyphicon glyphicon-stats"></span>
+				</button>
+				<button class="btn btn-danger btn-md" ng-click="detecterProbleme()">
+					Détecter les problématiques <span class="glyphicon glyphicon-exclamation-sign"></span>
+				</button>
+				<hr/>
+			</div>
+		</div>
+
+		<div class="row" ng-show="!cacherLesErreur && erreurs.length > 0">
+			<button class="btn btn-primary" ng-click="cacherLesErreur = true">
+					Cacher les erreur <span class="glyphicon glyphicon-remove-sign"></span>
+				</button>
+			<table class="table table-hover">
+				<tr>
+					<th>No certificat</th>
+					<th>Visite</th>
+					<th>Boni pris</th>
+					<th>Description de l'erreur</th>
+				</tr>
+				<tr ng-repeat="erreur in erreurs">
+					<td>
+						<a href="" ng-click="consulter(erreur.numeroCertificat)">
+							{{erreur.numeroCertificat}}
+						</a>
+					</td>
+					<td>{{erreur.visite}}</td>
+					<td>{{erreur.boni}}</td>
+					<td>{{erreur.desc}}</td>
+				</tr>
+			</table>
+			<br>
+			<table class="table table-hover">
+				<tr>
+					<th>No certificat</th>
+					<th>Description de l'erreur</th>
+				</tr>
+				<tr ng-repeat="erreur in erreursAutres">
+					<td>{{erreur.numeroCertificat}}</td>
+					<td>{{erreur.desc}}</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="row" ng-show="!cacherLesErreur && erreurs.length == 0">
+			<div class="alert alert-success" role="alert" id="log">
+				<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+				<span class="sr-only"></span>
+				<span id="success_msg">Aucune erreur detecter !</span>
+				<button class="btn btn-primary" ng-click="cacherLesErreur = true">
+					Ok <span class="glyphicon glyphicon-remove-sign"></span>
+				</button>
+			</div>
+		</div>
+
+		<div class="row" ng-show="informationClient && cacherLesErreur">
+			<!--Type de visites-->
+			<div class="col-md-6" ng-if="typesVisites">
+				<table class="table table-hover">
+					<tr>
+						<th>Types de visites</th>
+						<th><span class="glyphicon glyphicon-edit"></span></th>
+						<th><span class="glyphicon glyphicon-remove-sign"></span></th>
+					</tr>
+					<tr ng-repeat="visite in typesVisites" ng-if="visite != null">
+						<td>
+							<div ng-if="!modifiable">{{visite.$value}}</div>
+							<div ng-if="modifiable">
+								<textarea class="form-control" rows="2" ng-model="visite.$value"></textarea>
+							</div>
+						</td>
+						<td>
+							<button class="btn btn-primary btn-sm" ng-show="!modifiable" ng-click="modifiable = ! modifiable">
+								<span class="glyphicon glyphicon-edit"></span>
+							</button>
+							<button class="btn btn-primary btn-sm" ng-show="modifiable" ng-click="modifiable = ! modifiable; saveTypeVisites(visite)">
+								<span class="glyphicon glyphicon-ok-sign"></span>
+							</button>
+						</td>
+						<td>
+							<button class="btn btn-primary btn-sm" ng-show="!modifiable" ng-click="supprimerTypeVisites(visite)">
+								<span class="glyphicon glyphicon-remove-sign"></span>
+							</button>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<textarea class="form-control" rows="2" ng-model="typeVisiteAjouter.text"></textarea>
+						</td>
+						<td>
+							<button class="btn btn-primary btn-sm" title="Ajouter une visite" ng-click="ajouterTypeVisites()">
+								<span class="glyphicon glyphicon-plus"></span>
+							</button>	
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div class="col-md-6" ng-if="typesBonus">
+				<table class="table table-hover">
+					<tr>
+						<th>Types de bonus</th>
+						<th><span class="glyphicon glyphicon-usd"></span></th>
+						<th><span class="glyphicon glyphicon-edit"></span></th>
+						<th><span class="glyphicon glyphicon-remove-sign"></span></th>
+					</tr>
+					<tr ng-repeat="bonus in typesBonus" ng-if="bonus != null">
+						<td>
+							<div ng-if="!modifiable">{{bonus.desc}}</div>
+							<div ng-if="modifiable">
+								<textarea class="form-control" rows="2" ng-model="bonus.desc"></textarea>
+							</div>
+						</td>
+						<td>
+							<div ng-if="!modifiable">{{bonus.montant}}</div>
+							<div ng-if="modifiable">
+								<input class="form-control" type="number" ng-model="bonus.montant"/>
+							</div>
+						</td>
+						<td>
+							<button class="btn btn-primary btn-sm" ng-show="!modifiable" ng-click="modifiable = ! modifiable">
+								<span class="glyphicon glyphicon-edit"></span>
+							</button>
+							<button class="btn btn-primary btn-sm" ng-show="modifiable" ng-click="modifiable = ! modifiable; saveTypeBonus(bonus)">
+								<span class="glyphicon glyphicon-ok-sign"></span>
+							</button>
+						</td>
+						<td>
+							<button class="btn btn-primary btn-sm" ng-show="!modifiable" ng-click="supprimerTypeBonus(bonus)">
+								<span class="glyphicon glyphicon-remove-sign"></span>
+							</button>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3">
+							<textarea class="form-control" ng-model="typeBonusAjouter.text" rows="2"></textarea>
+						</td>
+						<td>
+							<button class="btn btn-primary btn-sm" title="Ajouter un bonus" ng-click="ajouterTypeBonus()">
+								<span class="glyphicon glyphicon-plus" ></span>
+							</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+	</div>
+</div>

@@ -1,0 +1,9 @@
+{
+  "firebase": "suivi-epicerie",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

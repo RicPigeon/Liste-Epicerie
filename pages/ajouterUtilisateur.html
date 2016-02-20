@@ -1,0 +1,37 @@
+<div>
+	<toaster-container toaster-options="{'time-out': 2000}"></toaster-container>
+	<div class="container margin-top-nav">
+		<div class="row">
+			<div class="col-md-12"><h3>Espace admin - Ajouter un utilisateur</h3></div>
+			<hr/>
+		</div>
+
+		<form name="login" novalidate>
+			<div class="row">
+				<div class="col-md-6">
+					<label>Nom complet de l'utilisateur (utile pour l'affichage):</label>
+					<input class="form-control" type="text" name="text" id="text" ng-model="nomClient.data" required/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<label>Email de l'utilisateur:</label>
+					<input class="form-control" type="email" name="email" id="email" ng-model="email.data" required/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<label>Mot de passe:</label>
+					<input class="form-control" type="password" name="password" id="password" ng-model="pass.data" required/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<button type="button" class="btn btn-primary" value="Submit" ng-click="ajouterUtilisateur(email.data, pass.data);" ng-disabled="login.$invalid">
+							Ajouter l'utilisateur
+					</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>

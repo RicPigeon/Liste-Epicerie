@@ -1,0 +1,67 @@
+.table-col {
+	position: inherit;
+}
+
+.margin-top-nav {
+	margin-top:65px;
+}
+
+.pointer {
+	cursor:pointer;
+}
+
+// Classes
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+
+.affix {
+    top: 120px;
+    right:0px;
+}
+
+.affix-top {
+    top: 120px;
+    right:0px;
+}
+.navbar-brand,
+.navbar-nav li a {
+    height: 60px;
+    line-height: 70px;
+    padding-top: 0;
+}
+
+/*SPINNER*/
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+
+/* POUR L'APPLICATION */
+
+/* Liste epicerie */
+
+
+.col-pour-semaine {
+	border:1px solid darkgrey;
+	padding: 5px;
+}
+
+.addDescMenu {
+	float:right;
+	margin-top:-20px;
+}

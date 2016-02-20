@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html ng-app="myApp">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta http-equiv="Content-Type" content="text/html" /> 
+	<title>Gestion epicerie</title>
+
+<!--  -->
+	<!-- SCRIPT VENDEUR -->
+	<script src="Script/vendeur/jquery.min.js"></script>
+	<script src="Script/vendeur/bootstrap.min.js"></script>
+	<script src="Script/vendeur/angular.min.js"></script>
+	<script src="Script/vendeur/angular-route.min.js"></script>
+	<script src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
+	<script src="Script/vendeur/ng-google-chart.min.js"></script>
+	<script src="Script/vendeur/angularfire.min.js"></script>
+	<script src="Script/vendeur/ui-bootstrap.min.js"></script>
+	<script src="Script/vendeur/jquery-ui.min.js"></script>
+	<script src="Script/vendeur/summernote.min.js"></script>
+	<script src="Script/vendeur/angular-summernote.min.js"></script>
+	<script src="Script/vendeur/summernote-fr-FR.js"></script>
+	<script src="Script/vendeur/ng-table.min.js"></script>
+	<script src="Script/vendeur/toaster.min.js"></script>
+	<script src="Script/vendeur/FileSaver.js"></script>
+	
+	<!-- SCRIPT APP -->
+	<script src="Script/app.js"></script>
+	<script src="Script/Config/config.js"></script>
+	<script src="Script/Filtre/filtre.js"></script>
+	<script src="Script/Directive/Directive.js"></script>
+
+	<!-- Les services -->
+	<script src="Script/Service/common.js"></script>
+	<script src="Script/Service/authentificationSvc.js"></script>
+	<script src="Script/Service/dataSvc.js"></script>
+	<script src="Script/Service/menuSvc.js"></script>
+
+	<!-- SCRIPT CONTROLLEUR -->
+	<script src="Script/Controlleur/loginCtrl.js"></script>
+	<script src="Script/Controlleur/changePasswordCtrl.js"></script>
+	<script src="Script/Controlleur/listeEpicerieCtrl.js"></script>
+	<script src="Script/Controlleur/statistiqueCtrl.js"></script>
+	<script src="Script/Controlleur/adminCtrl.js"></script>
+	<script src="Script/Controlleur/ajouterUtilisateurCtrl.js"></script>
+
+
+	<!-- STYLE CSS VENDEUR -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href="CSS/summernote.css" rel="stylesheet">
+	<link href="CSS/jquery-ui.css" rel="stylesheet">
+	<link href="CSS/toaster.css" rel="stylesheet" />
+	<link rel="stylesheet" href="CSS/ng-table.css">
+
+	<!-- STYLE CSS COSTUM-->
+	<link rel="stylesheet" href="CSS/style.css">
+
+</head>
+	
+	<body ng-controller="AppCtrl">
+		<nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<span>
+					<a class="navbar-brand"><b>Gestion epicerie</b></a>
+				</span>
+			</div>
+			<!-- Collection of nav links and other content for toggling -->
+			<div id="navbarCollapse" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav" ng-repeat="menu in menus">
+					<li ng-class="{active : singleton.actuel==menu.controlleur}"><a href="{{menu.href}}" ng-click="singleton.actuel = menu.controlleur">{{menu.affiche}} {{actuel}}<i class="{{menu.icon}}"></i></a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="pointer"><a ng-click="rafraichir()">Rafraichir <i class="glyphicon glyphicon-refresh"></i></a></li>
+					<li class="dropdown menu-droite">
+			          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Espace Client <i class="glyphicon glyphicon-user"></i><span class="caret"></span></a>
+			          <ul class="dropdown-menu" style="z-index:2000">
+			            <li><a class="menu-droite">{{menuConnection.affiche}}</a></li>
+						<li ng-if="menuConnection.deconnexion"><a class="menu-droite pointer" href="#/changePassword">Parametre <span class="glyphicon glyphicon-cog"></span></a></li>
+						<li ng-if="menuConnection.deconnexion"><a class="menu-droite pointer" ng-click="deconnexion()">Deconnexion <span class="glyphicon glyphicon-log-out"></span></a></li>
+			          </ul>
+			        </li>
+				</ul>
+			</div>
+		</nav>
+		<!--Le view pour chacune des pages-->
+		<div ng-view autoscroll="true"></div>	
+	
+	</body>
+
+</html>
+	

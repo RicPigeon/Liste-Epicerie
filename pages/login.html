@@ -1,0 +1,47 @@
+<div>
+	<div class="container margin-top-nav">
+		<div ng-hide="changePasswordWindow">
+			<form name="login" novalidate>
+				<div class="row">
+					<div class="col-md-12"><h3>Connexion</h3></div>
+					<hr/>
+				</div>
+				<br/>
+				<div class="alert alert-success" role="alert" id="log">
+					<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+					<span class="sr-only">Réussi:</span>
+					<span id="success_msg"></span>
+				</div>
+				<div class="alert alert-danger" role="alert" id="error">
+					<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+					<span class="sr-only">Erreur:</span>
+					<span id="error_msg"></span>
+				</div>
+				{{$scope.message}}
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Courriel:</label>
+						<input class="form-control" type="email" name="email" id="email" ng-model="email.data" required/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<label>Mot de passe:</label>
+						<input class="form-control" type="password" name="password" id="password" ng-model="pass.data" required/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<button type="button" class="btn btn-primary" value="Submit" ng-click="connexionClick(email.data, pass.data);" ng-disabled="login.$invalid">
+  							Se connecter
+						</button>
+					</div>
+					<div class="col-sm-12">
+						<hr/>
+						<a href="#/changePassword" class="pointer">Changer de mot de passe</a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

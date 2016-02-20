@@ -1,0 +1,136 @@
+<div>
+	<div class="container margin-top-nav">
+		<div class="row">
+			<div class="col-md-12"><h3>Ma liste d'epicerie</h3></div>
+			<hr/>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				Periode du 
+			</div>
+			<div class="col-xs-10">	
+				<select class="form-control" ng-model="liste.periode">
+					<option value="">- Choisir une période -</option>
+					<option ng-selected="{{liste.periode == periode.$value}}"
+							ng-repeat="periode in listePeriode" value="{{periode.$value}}">
+						{{periode.$value}}
+					</option>
+				</select>
+			</div>
+			<div class="col-xs-1">
+				<button class="form=control">
+					<span class="glyphicon glyphicon-plus"></span>
+				</button>
+			</div>
+		</div>
+		<br/>
+		<div ng-show="!dataLoaded">
+			<span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span> Chargement en cours...
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				Repas de la semaine
+			</div>
+			<div class="col-md-12">
+				<div class="col-sm-2">
+					Semaine
+				</div>
+				<div class="col-md-2 col-sm-2 col-pour-semaine" ng-repeat="jour in semaine">
+					<div><b>{{jour}}</b></div>
+					<div>{{menu[jour].description}}</div>
+					<div>{{menu[jour].alimentListe}}</div>
+					<button 
+					    class="addDescMenu"
+						ng-if="menu[jour].description == null"
+						ng-click="whereToSave(jour)"
+						data-toggle="modal" data-target="#myModal">
+						<span class="glyphicon glyphicon-plus pointer"></span>
+					</button>
+					<button 
+					 	class="addDescMenu"
+						ng-if="menu[jour].description != null"
+						data-toggle="modal" data-target="#myModal">
+						<span class="glyphicon glyphicon-edit"></span>
+					</button>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="col-sm-2">
+					Fin de semaine
+				</div>
+				<div class="col-md-2 col-sm-2 col-pour-semaine" ng-repeat="jour in finDeSemaine">
+					<div><b>{{jour}}</b></div>
+					<div>{{menu[jour].description}}</div>
+					<div>{{menu[jour].alimentListe}}</div>
+					<button 
+					    class="addDescMenu"
+						ng-if="menu[jour].description == null"
+						ng-click="whereToSave(jour)">
+						<span class="glyphicon glyphicon-plus pointer"></span>
+					</button>
+					<button 
+					 	class="addDescMenu"
+						ng-if="menu[jour].description != null"
+						data-toggle="modal" data-target="#myModal">
+						<span class="glyphicon glyphicon-edit"></span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+			<br/>
+			<br/>
+
+
+			<div class="col-md-6">
+				Liste d'epicerie pour la semaine
+			</div>
+
+
+			<br/>
+
+
+
+
+
+		<div class="row" ng-show="dataLoaded">
+			<div class="col-md-12 table-col">			
+				<table class="table table-hover" ng-table="tableParams">
+						<tr ng-repeat="aliment in $data">
+							<td title="'Aliment'" sortable="'nomPrenom'">{{aliment.nom}}</td>
+							<td>
+								<span ng-click="consulter(forfait.numeroCertificat)" class="glyphicon glyphicon-chevron-right goTo pointer"></span>
+							</td>
+						</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+<toaster-container toaster-options="{'time-out': 2000}"></toaster-container>
+	<!-- Modal -->
+	<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Ajouter un repas de semaine</h4>
+      </div>
+      <div class="modal-body">
+      	{{leJour}}
+        	Nom de repas : <input class="form-control" type="text" ng-model="menu[leJour].description"></input>
+        	Liste des ingrédient : <input class="form-control"  type="text" ng-model="ingredient"></input>
+      </div>
+      <div class="modal-footer">
+		<button type="button" class="btn btn-default" data-dismiss="modal" ng-click="enregistrerMenu()">Enregistrer</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+
+  </div>
+</div>
