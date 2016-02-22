@@ -10,11 +10,13 @@ app.service('authentificationSvc', ['$firebaseAuth','$q', 'toaster', function($f
 
  	authentifier.estAuthentifier = function(){
  		var user = ref.getAuth();
+ 		console.log(user);
  		if(user){
  			return true;
  		} else {
  			return false;
  		}
+
  	}
 
  	authentifier.ajouterUtilisateur = function(email, password){
@@ -24,10 +26,23 @@ app.service('authentificationSvc', ['$firebaseAuth','$q', 'toaster', function($f
 			password : password
 		}, function(error, userData) {
 			if (error) {
-				if(error.code = "EMAIL_TAKEN"){
-					toaster.pop('error', "Cette adresse email est deja utilise par une autre personne.");
+				switch(error.code){
+					case "EMAIL_TAKEN" :
+						toaster.pop('error', "Cette adresse email est deja utilise par une autre personne.");
+						deffered.resolve(false);
+						break;
+
+					case "INVALID_EMAIL" : 
+						toaster.pop('error', "Cette adresse email n'est pas valide.");
+						deffered.resolve(false);
+						break;
+
+					default :
+						toaster.pop('error', "Erreur dans la création du compte.");
+						deffered.resolve(false);
+						break;
 				}
-			  	deffered.resolve(false);
+			  	
 			} else {
 			  var utilisateurUID = userData.uid;
 			  deffered.resolve(utilisateurUID);
@@ -95,6 +110,12 @@ app.service('authentificationSvc', ['$firebaseAuth','$q', 'toaster', function($f
  		//On vide les informations d'authentification
  		getEstAdmin = false;
 		ref.unauth();
+	}
+
+	authentifier.theme = function(){
+		theme = [{
+			theme: dark.css
+		}];
 	}
 
 	authentifier.changerMotDePasse = function(email, oldpass, newpass){

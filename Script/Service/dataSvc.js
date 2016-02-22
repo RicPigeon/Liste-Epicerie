@@ -30,6 +30,14 @@ app.service('dataSvc', ['$firebaseObject','$firebaseArray', 'authentificationSvc
   		});
 	}
 
+    data.obtenirObjet = function(){
+
+        var refObject = new Firebase('https://suivi-epicerie.firebaseio.com');
+
+        var refChild = refObject.child('object1');
+        return $firebaseObject(refChild);
+    };
+
  	return data;
  }]);
 

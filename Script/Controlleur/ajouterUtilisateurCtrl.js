@@ -12,6 +12,7 @@ app.controller('ajouterUtilisateurCtrl',
 		}
 
 		$scope.ajouterUtilisateur = function(email, password){
+			console.log("yatta");
 			var nomClient = $scope.nomClient.data;
 			authentificationSvc.ajouterUtilisateur(email, password).then(function(userUID){
 

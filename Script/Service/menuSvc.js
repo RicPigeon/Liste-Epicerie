@@ -10,6 +10,7 @@ app.service('menuSvc', ['$scope','authentificationSvc',
 		$scope.menuConnection.affiche = authCredit.password.email;
 		$scope.menuConnection.href = '#/espaceClient/';
 		$scope.menuConnection.deconnexion = true;
+		$scope.menuConnection.theme = true;
 
 		//On est authentifier donc on va changer le menu avec les nouvelles options
 		if($scope.menus.length == 0) {
