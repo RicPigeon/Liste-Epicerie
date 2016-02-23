@@ -15,7 +15,7 @@ app.controller('listeEpicerieCtrl',
 		$scope.finDeSemaine = ['Samedi', 'Dimanche'];
 
 		$scope.search = {};
-		$scope.listeEpicerie = [{nom:'Viande'}];
+		$scope.listeEpicerie = [];
 
 		//$scope.listeEpicerie.$loaded().then(function(laundryData) {		 
 	        $scope.tableParams = new NgTableParams({
@@ -43,21 +43,7 @@ app.controller('listeEpicerieCtrl',
 		console.log(jour);
 		$scope.leJour = jour;
 		$scope.menu[jour] = {};
-		$scope.objet = dataSvc.obtenirObjet();
-		//objet.$bindTo($scope, "objet");
 	} 
-
-	$scope.updateObject = function(){
-
-		$scope.objet.$save().then(function(ref){
-
-			toaster.pop('success', 'Bravo!');
-
-		}, function(error){
-
-			toaster.pop('error', 'Oh oh!');
-		});
-	}
 
 	//Si on est authentifié on ne redirige pas sinon -> on redirige
 	var estAuthentifier = authentificationSvc.estAuthentifier();
