@@ -37,16 +37,6 @@ app.controller('AppCtrl',
 		$location.path('/');
 	}
 
-	$scope.theme = function(){
-		authentificationSvc.theme();
-		$scope.menuConnection = {
-			affiche: 'Espace client',
-			href: '#/connexion',
-			controlleur: 'Autre'
-		};
-		$location.path('/');
-	}
-
 	var updateMenu = function(){
   		var authCredit = authentificationSvc.getAuthentificationCredit();
   		$(".navbar-collapse").collapse('hide');
@@ -55,7 +45,6 @@ app.controller('AppCtrl',
 			$scope.menuConnection.affiche = authCredit.password.email;
 			$scope.menuConnection.href = '#/espaceClient/';
 			$scope.menuConnection.deconnexion = true;
-			$scope.menuConnection.theme = true;
 
 			//On est authentifier donc on va changer le menu avec les nouvelles options
 			if($scope.menus.length == 0) {
@@ -89,20 +78,4 @@ app.controller('AppCtrl',
 			//$location.path('/');
 		}
 	}
-
-	$scope.getUserImage = function() {
-
-		if(!$scope.authData) return "";
-
-		switch($scope.authData.provider) {
-
-			case "facebook":
-				return $scope.authData.facebook.profileImageURL ? $scope.authData.facebook.profileImageURL : "";
-				break;
-
-			default:
-				return "";
-				break;
-		}
-	};
 });
