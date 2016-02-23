@@ -1,3 +1,4 @@
+<toaster-container toaster-options="{'time-out': 2000}"></toaster-container>
 <div>
 	<div class="container margin-top-nav">
 		<div class="row">
@@ -7,6 +8,11 @@
 		<div class="row">
 			<div class="col-sm-12">
 				Periode du 
+				<input jqdatepicker ng-model="objet.$value"/>
+				<button 
+				    ng-click="updateObject">
+				    <span class="glyphicon glyphicon-plus pointer"></span>
+				</button>
 			</div>
 			<div class="col-xs-10">	
 				<select class="form-control" ng-model="liste.periode">
@@ -31,7 +37,10 @@
 		<div class="row">
 			<div class="col-md-12">
 				Repas de la semaine
-			</div>
+	<button 
+    ng-click="">
+    <span class="glyphicon glyphicon-plus pointer"></span>
+   </button>		</div>
 			<div class="col-md-12">
 				<div class="col-sm-2">
 					Semaine
