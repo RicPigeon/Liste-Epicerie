@@ -1,0 +1,1532 @@
+Apéritifs (pour 100 g)
+Apéricube La Vache qui rit (à l'unité)
+,
+Bretzel (à l'unité 15 g)
+80,
+Cacahuètes (à l'unité)
+10,
+Chipster salé
+460,
+Chips Vico à l'ancienne saveur moutarde
+,
+Crackers Belin Monaco emmental
+,
+Miniquiche
+,
+Minizza
+,
+Monaco
+50,
+Mousse de poisson
+,
+Noix de cajou
+,
+Oeufs de lump
+,
+Oeufs de poisson (1 c.à café)
+,
+Olives noires
+,
+Olives vertes
+,
+Pistaches
+,
+Pringles original
+540,
+Rillettes d'oie
+,
+Rillettes de saumon
+320,
+Boissons
+Bière canette = 33 cl
+,
+Bière "33" Export bouteille = 25 cl
+,
+Bière sans alcool canette = 33 cl
+,
+Calvados verre à liqueur = 4 cl
+100,
+Champagne brut flûte
+70,
+Champagne doux flûte
+120,
+Coca cola verre = 250 ml
+100,
+Cognac verre = 4 cl
+,
+Eau-de-vie verre à liqueur = 4 cl
+100,
+Martini verre = 8 cl
+,
+Mousseux coupe = 10 cl
+70,
+Muscat verre = 15 cl
+240,
+Oasis orange verre = 15 cl
+,
+Orangina verre = 15 cl
+,
+Orangina light verre = 15 cl
+,
+Pastis dose = 4 cl
+130,
+Pepsi pour 100ml
+,
+Perrier
+0,
+Porto verre = 7 cl
+80,
+Punch verre = 8 cl
+110-160,
+Rhum verre = 4 cl
+,
+Ricard dose = 4 cl
+130,
+Sirop à l'eau 10 g pour 1 verre
+,
+Sprite 1 verre = 15 cl
+,
+Spiritueux verre = 4 cl
+,
+Suze verre = 8 cl
+,
+Thé glacé pour 100ml
+30,
+Vermouth verre = 7 cl
+,
+Vin blanc 10° verre = 15 cl
+10,
+Vin rouge 12° verre = 15 cl
+10,
+Vin cuit verre = 7 cl
+160,
+Vodka verre à liqueur = 4 cl
+100,
+Whisky verre = 8 cl
+,
+Desserts et sucreries (pour 100 g)
+Barre céréales et chocolat taillefine
+,
+Barre Kit Kat
+,
+Barre Mars
+,
+Barre Muesli
+,
+Barre Snickers
+,
+Barre Twix
+,
+Bonbons M&M'S
+,
+Boudoir
+,
+Cassonade
+380,
+Chocolat au lait
+550,
+Chocolat blanc
+570,
+Chocolat noir
+520,
+Confits abricots
+,
+Confits ananas
+,
+Cookies
+,
+Crème chantilly
+,
+Crème glacée pistache
+,
+Crème glacée chocolat
+,
+Crème glacée fraises
+,
+Crème glacée vanille
+,
+Crêpe nature
+,
+Croissant beurre
+40,
+Eclair au chocolat
+,
+Ferrero Rocher
+560,
+Gâteau au chocolat
+360,
+Gaufre nature
+,
+Gingembre confit
+,
+Miel
+30,
+Nutella
+530,
+Pain au chocolat
+410,
+Pain d'épice
+,
+Pâte de fruit
+,
+Petit Ecolier
+,
+Pop corn
+,
+Réglisse
+,
+Sirop d'agave
+,
+Sorbet
+90,
+Sucre
+,
+Sucre canne
+,
+Sucre glace
+,
+Sucre roux
+390,
+Sucre vanillé
+,
+Coquillages et crustacés (pour 100 g)
+Belons
+80,
+Bigorneaux (décortiqués)
+100,
+Bouquet de crevettes
+,
+Clams
+80,
+Clovisses
+50,
+Coques
+,
+Coquillages
+60,
+Coquille St-Jacques
+,
+Couteaux
+,
+Crabe (conserve)
+10,
+Crabe frais
+,
+Crevettes (dizaine)
+,
+Crevettes grises
+,
+Crustacés
+,
+Ecrevisses
+,
+Gambas
+,
+Homard
+80,
+Huîtres
+70,
+Huîtres (douze)
+110,
+Langouste
+90,
+Langoustine
+90,
+Mollusques
+70,
+Moules
+70,
+Oursins
+,
+Palourdes
+50,
+Pétoncles
+70,
+Poulpe
+,
+Praires
+,
+Scampi
+90,
+Seiche
+,
+Tourteau
+,
+Poissons (pour 100 g)
+Aiglefin
+,
+Anchois
+160,
+Anguille
+250,
+Anguille fumée
+30,
+Araignée de mer
+,
+Bar
+90,
+Barbue
+,
+Baudroie ou lotte
+,
+Brème
+100,
+Brochet
+,
+Cabillaud ou morue
+,
+Calmar
+,
+Carpe d'élevage
+90,
+Carpe sauvage
+,
+Carrelet
+,
+Caviar
+,
+Colin ou merlu
+,
+Congre
+110,
+Daurade
+,
+Eglefin
+,
+Encornet
+,
+Eperlan
+,
+Espadon
+,
+Esturgeon
+,
+Flétan
+,
+Gardon
+,
+Goujon
+,
+Grondin
+,
+Haddock
+10,
+Hareng
+200,
+Hareng frais
+,
+Hareng fumé
+200,
+Lamproie
+,
+Lançon ou équille
+,
+Lieu
+90,
+Limande
+,
+Lotte ou baudroie
+,
+Maquereau (conserve)
+20,
+Maquereau frais
+,
+Merlan
+90,
+Merlu ou colin
+,
+Mérou
+,
+Morue
+,
+Morue salée
+,
+Morue séchée
+,
+Mulet
+,
+Murène
+,
+Oeufs de lump
+80,
+Oeufs de poissons
+,
+Omble ou ombre
+,
+Ormeaux
+,
+Pagre
+,
+Perche
+,
+Pieuvre
+,
+Plie
+,
+Poissons à l'huile
+,
+Poissons demi-gras
+120,
+Poissons fumés
+,
+Poissons gras
+180,
+Poissons maigres
+,
+Poissons panés
+,
+Poissons séchés
+320,
+Raie
+,
+Rascasse
+,
+Requin
+10,
+Rollmops
+,
+Rouget-barbet
+,
+Rouget-grondin
+,
+Roussette
+10,
+Saint-Jacques
+,
+Saint-Pierre
+,
+Sandre
+,
+Sardines à l'huile
+,
+Sardines fraîches
+,
+Saumon (conserve)
+170,
+Saumon frais
+200,
+Saumon fumé
+,
+Saumonette
+10,
+Silure
+250,
+Sole
+,
+Soupe de Poissons (1 louche)
+90,
+Sprats
+160,
+Tanche
+,
+Thon à l'huile
+280,
+Thon au naturel
+,
+Thon frais
+,
+Truite
+10,
+Truite saumonnée
+,
+Turbot
+,
+Turbotin
+,
+Viandes (pour 100 g)
+Abats
+120,
+Abats en sauce
+290,
+Agneau
+280,
+Agneau (cervelle)
+,
+Agneau (côtelettes)
+330,
+Agneau (épaule)
+,
+Agneau (foie)
+,
+Agneau (gigot)
+250,
+Agneau (langue)
+,
+Agneau (rognon)
+,
+Agneau (selle)
+,
+Aiguillette de boeuf
+200,
+Aloyau de boeuf
+,
+Aloyau de veau
+,
+Andouille
+300,
+Andouillette
+320,
+Bacon
+,
+Bavette (boeuf)
+200,
+Bifteck de boeuf
+200,
+Bifteck de cheval
+110,
+Boeuf
+250,
+Boeuf (aiguillette)
+200,
+Boeuf (aloyau)
+,
+Boeuf (araignée)
+200,
+Boeuf (bavette)
+200,
+Boeuf (cervelle)
+130,
+Boeuf (coeur)
+,
+Boeuf (corned-beef)
+,
+Boeuf (côte)
+260,
+Boeuf (culotte)
+,
+Boeuf (échine)
+,
+Boeuf (entrecôte)
+200,
+Boeuf (épaule)
+,
+Boeuf (faux-filet)
+,
+Boeuf (filet)
+180,
+Boeuf (foie)
+,
+Boeuf (gîte)
+300,
+Boeuf (hampe)
+200,
+Boeuf (langue)
+200,
+Boeuf (macreuse)
+,
+Boeuf (noix)
+,
+Boeuf (onglet)
+200,
+Boeuf (paleron)
+,
+Boeuf (palette)
+,
+Boeuf (plates côtes)
+250,
+Boeuf (rognon)
+,
+Boeuf (rond de gîte)
+,
+Boeuf (rosbif)
+160,
+Boeuf (rumsteack)
+200,
+Boeuf (tendron)
+300,
+Boeuf (tournedos)
+200,
+Boeuf (tripes)
+,
+Caille
+,
+Carré de porc
+330,
+Carré de veau
+,
+Cerf
+,
+Cervelas
+320,
+Cervelle
+,
+Chair à saucisse
+,
+Charcuterie
+450,
+Cheval
+110,
+Chevreau
+160,
+Chevreuil
+120,
+Coeur
+,
+Corned-beef
+,
+Côte de boeuf
+260,
+Côtelettes d'agneau
+330,
+Côtes de mouton
+300,
+côtes de porc
+330,
+Côtes de veau
+,
+Culotte de boeuf
+,
+Culotte de veau
+,
+Dinde
+,
+Echine de boeuf
+,
+Echine de porc
+30,
+Escalope de veau
+170,
+Faux-filet (boeuf)
+360,
+Foie
+,
+Foie gras
+450,
+Fromage de tête
+,
+Grenouille (cuisses)
+,
+Hamburger
+560,
+Hot-dog (unité)
+400,
+Jambon cru
+330,
+Jambon cuit
+290,
+Jambon de Paris
+290,
+Jambon fumé
+380,
+Jambonneau
+290,
+Jarret de veau
+,
+Langue
+200,
+Lapin de garenne
+,
+Lapin domestique
+160,
+Lard fumé
+670,
+Lard
+,
+Lièvre
+100,
+Macreuse (boeuf)
+,
+Marcassin
+10,
+Merguez
+520,
+Moelle
+60,
+Mortadelle
+30,
+Mousse de foie
+410,
+Mouton
+,
+Mouton (cervelle)
+120,
+Mouton (coeur)
+,
+Mouton (côtes)
+300,
+Mouton (épaule)
+,
+Mouton (filet)
+,
+Mouton (foie)
+,
+Mouton (gigot)
+250,
+Mouton (langue)
+,
+Mouton (rognon)
+10,
+Mouton (selle)
+250,
+Museau de porc
+,
+Noix de boeuf
+,
+Noix de porc
+,
+Noix de veau
+160,
+Pâté de campagne
+,
+Pâté de foie
+,
+Pâté de tête
+,
+Petit salé
+330,
+Pied de veau
+,
+Poitrine de porc
+300,
+Porc
+300,
+Porc (carré)
+330,
+Porc (cervelle)
+,
+Porc (coeur)
+,
+Porc (côtes)
+330,
+Porc (échine)
+30,
+Porc (filet)
+290,
+Porc (foie)
+,
+Porc (jambon fumé)
+,
+Porc (jambon)
+300,
+Porc (langue)
+20,
+Porc (lard fumé)
+670,
+Porc (lard)
+,
+Porc (noix)
+,
+Porc (palette)
+300,
+Porc (pied)
+,
+Porc (poitrine)
+300,
+Porc (rognons)
+10,
+Porc (rôti)
+300,
+Porc (travers)
+30,
+Quasi de veau
+,
+Rillettes
+250,
+Ris de veau
+,
+Rognons
+120,
+Rond de gîte
+,
+Rosbif
+160,
+Rôti de porc
+300,
+Rôti de veau
+,
+Rumsteack (boeuf)
+200,
+Salami
+410,
+Sanglier
+10,
+Saucisses
+330,
+Saucisson
+440,
+Steack de boeuf
+200,
+Steack de cheval
+110,
+Tartare (steack)
+200,
+Tendron de boeuf
+300,
+Tête de veau
+210,
+Tournedos (boeuf)
+200,
+Travers de porc
+30,
+Tripes
+,
+Veau
+170,
+Veau (aloyau)
+,
+Veau (araignée)
+,
+Veau (carré)
+,
+Veau (cervelle)
+120,
+Veau (coeur)
+,
+Veau (côtes)
+,
+Veau (épaule)
+,
+Veau (foie)
+,
+Veau (hampe)
+200,
+Veau (langue)
+,
+Veau (longe)
+,
+Veau (noix)
+160,
+Veau (onglet)
+,
+Veau (pieds)
+,
+Veau (quasi)
+,
+Veau (ris)
+,
+Veau (rognon)
+,
+Veau (rôti)
+,
+Veau (tête)
+210,
+Veau (jarret)
+,
+Volailles (pour 100 g)
+Bécasse
+,
+Canard
+250,
+Canard sauvage
+,
+Dinde
+260,
+Dindonneau
+260,
+Faisan
+10,
+Grive
+120,
+Oie
+350,
+Perdreau
+,
+Perdrix
+,
+Pigeon
+10,
+Pintade
+10,
+Poule
+300,
+Poulet
+150,
+Légumes (pour 100 g)
+Artichaut
+40,
+Asperges
+,
+Aubergine
+,
+Avocat
+200,
+Bette ou blette
+,
+Betterave rouge
+40,
+Bouillon de légumes (1 louche)
+30,
+Brocolis
+,
+Carde ou cardon
+,
+Carotte
+,
+Carotte (jus)
+,
+Céleri (feuille)
+20,
+Céleri-rave
+,
+Cêpes
+,
+Champignons
+,
+Chanterelles
+,
+Chicorée frisée
+20,
+Chou
+,
+Chou brocolis
+,
+Chou chinois
+,
+Chou de Bruxelles
+,
+Chou-fleur
+30,
+Chou-navet
+,
+Chou-rave
+40,
+Chou-rouge
+,
+Choucroute
+,
+Citron
+40,
+Citron (jus)
+,
+Citrouille
+30,
+Coeur de palmier
+,
+Concombre
+,
+Condiments
+0,
+Cornichons
+,
+Courge
+30,
+Courgette
+30,
+Crème de légumes (1 louche)
+200,
+Cresson
+20,
+Cresson (soupe) (1 louche)
+120,
+Echalottes
+,
+Endive
+20,
+Epinards
+,
+Fenouil
+20,
+Fève
+,
+Fève sèche
+,
+Flageolets
+120,
+Gingembre
+,
+Girolles
+,
+Haricot de Lima
+330,
+Haricot mange-tout
+40,
+Haricot mungo
+,
+Haricot sec (cru)
+330,
+Haricot sec (cuit)
+120,
+Haricot vert
+40,
+Laitue
+,
+Légumes secs
+330,
+Légumes verts
+,
+Lentilles
+,
+Lentilles (soupe) (1 louche)
+360,
+Macédoine de légumes
+,
+Mâche
+,
+Maïs (conserve)
+140,
+Maïs (grain)
+,
+Manioc (racine)
+140,
+Morilles
+,
+Navet
+,
+Oignons
+,
+Oignons (soupe) (1 louche)
+90,
+Palmier (coeur)
+,
+Panais
+,
+Patate douce
+110,
+Petits pois
+70,
+Pissenlit
+,
+Poireau
+,
+Pois (petits pois)
+70,
+Pois cassés
+,
+Pois cassés (soupe) (1 louche)
+380,
+Pois chiche
+360,
+Pois secs
+330,
+Poivron
+,
+Pomme de terre
+90,
+Pomme de terre (chips)
+570,
+Pomme de terre (flocons)
+,
+Pomme de terre (frites)
+420,
+Pomme de terre (purée)
+,
+Potiron
+30,
+Pourpier (feuille)
+,
+Pousses de bambou
+,
+Radis
+20,
+Romaine
+,
+Rutabaga
+,
+Salade verte
+,
+Salsifis
+,
+Scarole
+,
+Tétragone
+,
+Tomate
+20,
+Tomate (concentré)
+90,
+Tomate (jus)
+,
+Tomate (sauce)
+120,
+Topinambour
+,
+Truffe fraîche
+,
+Fruits
+Abricot frais
+,
+Abricot jus
+60,
+Abricots secs
+,
+Airelle
+,
+Amande (unité)
+10,
+Amandes
+,
+Ananas (conserve)
+,
+Ananas frais
+,
+Ananas jus
+,
+Banane
+90,
+Banane plantain
+,
+Banane sèche
+290,
+Brugnons
+,
+Cassis
+60,
+Cerises
+,
+Châtaignes
+,
+Clémentines
+40,
+Coco (lait)
+20,
+Coco (noix fraîche)
+,
+Coco (noix sèche)
+,
+Coing
+,
+Compotes
+100,
+Dattes
+30,
+Dattes "Deglet Nour"
+,
+Figue
+80,
+Figue sèche
+270,
+Fraises
+,
+Framboises
+40,
+Framboise (jus)
+,
+Fruit de la passion
+100,
+Fruits (compote)
+100,
+Fruits (jus 100%)
+,
+Fruits (nectars)
+70,
+Fruits au sirop
+100,
+Fruits confits
+380,
+Fruits secs
+300,
+Gelée de fruits
+280,
+Goyave
+60,
+Grenade
+,
+Groseilles
+30,
+Igname
+100,
+Jujube
+,
+Jus de fruit 100%
+,
+Kaki
+,
+Kiwi
+,
+Limette
+,
+Litchis
+,
+Macédoine de fruits
+100,
+Mandarine
+40,
+Mangue
+,
+Marrons
+,
+Marrons (crème)
+,
+Marrons (purée)
+,
+Marrons glacés
+30,
+Melon
+,
+Mirabelles
+,
+Mousserons
+,
+Mûres
+,
+Myrtilles
+,
+Nectars de fruits
+70,
+Nèfles
+,
+Noisette (unité)
+10,
+Noisettes
+,
+Noix
+660,
+Noix (unité)
+20,
+Noix de cajou
+,
+Noix de coco
+,
+Orange
+40,
+Orange jus
+,
+Pamplemousse
+40,
+Pamplemousse jus
+,
+Papaye
+,
+Pastèque
+30,
+Pêche
+,
+Pêche (jus)
+,
+Pêches au sirop
+70,
+Poire
+,
+Poire (jus)
+60,
+Pomme
+,
+Pomme (jus)
+,
+Prune
+,
+Prune (jus)
+,
+Pruneaux
+290,
+Quetsches
+,
+Raisin
+,
+Raisin jus
+,
+Raisins secs
+,
+Rhubarbe
+,
+Produits laitiers (pour 100 g)
+Babybel
+,
+Beaufort
+,
+Beurre
+760,
+Beurre (1 noix)
+70,
+Beurre allégé
+410,
+Beurre salé
+760,
+Bleus
+410,
+Bonbel
+,
+Boursault
+,
+Boursin
+,
+Brie
+,
+Camembert
+,
+Cantal
+,
+Carré de l'Est
+,
+Chavignols
+330,
+Cheddar
+,
+Chèvre
+330,
+Comté
+,
+Coulommiers
+,
+Crème de gruyère
+280,
+Crème fraîche
+300,
+Crème fraîche (1 c. à soupe)
+60,
+Crottins (fromage)
+80,
+Demi-sel
+,
+Edam
+,
+Emmenthal
+,
+Fromage blanc à 0% aux fruits
+80,
+Fromage blanc à 0% MG
+,
+Fromage blanc à 20% MG
+80,
+Fromage blanc à 40% MG
+,
+Gorgonzola
+40,
+Gouda
+,
+Gruyère
+,
+Hollande
+,
+Kéfir
+,
+Lait 1/2 écrémé
+,
+Lait concentré
+130,
+Lait concentré sucré
+330,
+Lait écrémé
+,
+Lait écrémé (poudre)
+,
+Lait entier
+,
+Lait entier (poudre)
+,
+Margarine (1 noix)
+,
+Margarine
+,
+Maroilles
+420,
+Mimolette
+,
+Morbier
+300,
+Mozzarelle
+,
+Munster
+320,
+Parmesan
+,
+Pavé d'Auge
+300,
+Petit-suisse (40 %)
+,
+Petit-suisse (60 %)
+,
+Pont-Lévêque
+300,
+Port-salut
+,
+Pyrénées
+,
+Reblochon
+,
+Roquefort
+40,
+Rouy
+,
+Saint-Florentin
+,
+Saint-Marcellin
+,
+Saint-Nectaire
+,
+Saint-Paulin
+,
+Tartare (portion 20 g)
+,
+Tomme
+,
+Yaourt à 0% (unité)
+,
+Yaourt à 0% sucré
+80,
+Yaourt aromatisé
+120,
+Yaourt au chocolat
+140,
+Yaourt aux fruits
+100,
+Yaourt nature (unité)
+,
+Matières grasses (pour 100 g)
+Arachide (huile)
+900,
+Beurre
+760,
+Beurre (1 noix)
+70,
+Beurre allégé
+410,
+Beurre salé
+760,
+Colza (huile)
+900,
+Graisse d'oie (1 cuil. soupe)
+180,
+Huile (1 c. à soupe)
+100,
+Huile de paraffine
+0,
+Huiles
+900,
+Margarine
+,
+Margarine (1 noisette)
+,
+Olives (huile)
+900,
+Saindoux
+850,
+Soja (huile)
+900,
+Tournesol (huile)
+900,
+Végétaline
+900,
+Féculents & Boulangerie (pour 100 g)
+Baguette (unité)
+510,
+Biscotte (unité)
+,
+Biscottes
+390,
+Biscottes au gluten
+40,
+Biscottes sans sel
+390,
+Biscuits
+400,
+Biscuits pomme Regain
+470,
+Boudoirs
+,
+Bretzel (unité)
+80,
+Brioche
+,
+Chapelure
+,
+Chausson (unité)
+300,
+Clafoutis (1 part)
+270,
+Congolais (unité)
+130,
+Crakers
+360,
+Craquelin (unité)
+100,
+Crêpe nature (unité)
+40,
+Crêpes orientales
+,
+Croissant (unité)
+180,
+Croquants (unité)
+,
+Ficelle (unité)
+,
+Fondants
+380,
+Friand (unité)
+370,
+Gâteaux
+,
+Gâteaux salés
+510,
+Gâteaux secs
+420,
+Gaufres
+400,
+Gaufrettes
+,
+Gaufrettes fourrées
+,
+Gressins
+350,
+Macaron (unité)
+120,
+Macarons
+,
+Madeleine (unité)
+,
+Madeleines
+490,
+Massepain
+550,
+Mille-feuille (unité)
+320,
+Muffins (unité)
+150,
+Pain au chocolat (unité)
+280,
+Pain au lait (unité)
+120,
+Pain au raisin (unité)
+270,
+Pain azyme
+,
+Pain bis
+,
+Pain blanc
+,
+Pain brioché
+,
+Pain complet
+230,
+Pain d'épice
+350,
+Pain de mie
+,
+Pain de seigle
+,
+Pain de son
+,
+Pain grillé
+,
+Pain viennois
+,
+Pâtes cuites
+90,
+Pâtes fraiches cuites
+,
+Petit-beurre (unité)
+,
+Petit-beurre
+420,
+Pudding (1 part)
+360,
+Quatre-quarts
+400,
+Quiche (unité)
+340,
+Riz blanc cuit
+90,
+Riz basmati cuit
+90,
+Riz complet cuit
+,
+Sablés
+460,
+Sandwich (gruyère)
+480,
+Sandwich (jambon)
+430,
+Sandwich (rillettes)
+580,
+Sandwich (saucisson)
+530,
+Sandwich (thon)
+450,
+Sandwich (viande)
+450,
+Tarte (1 part)
+360,
+Tarte (pommes)
+300,
+Triscottes
+390,

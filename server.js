@@ -31,3 +31,22 @@ app.listen(config.port, function(err){
 		console.log('Listening on port 3000');
 	}
 });
+
+var jsdom = require("jsdom");
+
+function notStringEmpty(element, index, array) {
+	return (element !== "");
+}
+ 
+
+//Function qui obtient les ingredients des sites de cuisine !!
+jsdom.env({
+  url: "http://www.ricardocuisine.com/recettes/6370-jarrets-d--agneau-glaces-au-miel-de-sarrasin",
+  scripts: ["http://code.jquery.com/jquery.js"],
+  done: function (err, window) {
+    var $ = window.$;
+    var ingredients = $("[itemprop='ingredients']").text().trim().replace(/\t/g, '').split('\n').filter(notStringEmpty);
+
+    console.log(ingredients);
+  }
+});

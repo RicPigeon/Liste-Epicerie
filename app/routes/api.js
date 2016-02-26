@@ -13,6 +13,5 @@ module.exports = function(app, express){
 		});
 
 
-
 	return api;
 }
